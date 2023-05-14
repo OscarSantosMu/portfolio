@@ -1,0 +1,2 @@
+src/Scripts/remove-instructions.sh eol=lf
+src/Scripts/update-hrefs.sh eol=lf
