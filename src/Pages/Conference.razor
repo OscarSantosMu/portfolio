@@ -1,11 +1,74 @@
-<div class="conference">
-    <h3> @data?.Title </h3>
-    <h4> @data?.Event </h4>
-    <div> @data?.Description </div>
-    <a href="@data?.Url"> Know more </a>
+<div class="resume-section-content">
+
+    <ul class="fa-ul mb-0">
+
+    <li>
+        <span class="oi oi-microphone" aria-hidden="true"></span><strong>&nbsp @data?.about?.name</strong>
+        <span class="badge btn-@eventType mx-2" data-toggle="tooltip" title="@tooltiptitle">@data?.eventAttendanceMode</span> 
+        @if (!string.IsNullOrEmpty(@data?.location?.description))
+        {
+            <span class="badge btn-primary"><a class="text-white" href="@urlEvent" target="@targetEvent">@data?.superEvent?.about?.name &#64; @data?.location?.description</a></span> 
+        }
+        else
+        {
+            <span class="badge btn-primary"><a class="text-white" href="@urlEvent" target="@targetEvent">@data?.superEvent?.about?.name</a></span> 
+        }
+        <span class="badge btn-secondary mx-2"><a class="text-white" href="@urlOrganizer" target="@targetOrganizer">by @data?.organizer?.name</a></span>
+        <div>
+            @data?.about?.description
+        </div>
+    </li>
+    @if (!string.IsNullOrEmpty(@data?.about?.additionalType))
+    {
+        <a href="@data?.about?.additionalType" target="_blank"><span class="oi oi-link-intact" aria-hidden="true"></span> Know More</a><br>
+    }
+    @if (!string.IsNullOrEmpty(@data?.about?.url))
+    {
+        <a href="@data?.about?.url" target="_blank"><span class="oi oi-video" aria-hidden="true"></span> Watch workshop replay</a>
+    }
+    <div class="resume-date text-md-right mb-1">
+        <span class="text-primary">@data?.startDate</span>
+    </div>
+
+    </ul>
 </div>
 
 @code {
     [Parameter]
-    public ConferenceModel? data { get; set; }
+    public EducationEvent? data { get; set; }
+    public string eventType { get; set; } = "danger";
+    public string currentPage { get; set; } = "speaking";
+    public string tooltiptitle { get; set; } = "";
+    public string? targetEvent { get; set; }
+    public string? targetOrganizer { get; set; }
+    public string? urlEvent { get; set; }
+    public string? urlOrganizer { get; set; }
+
+    protected override void OnInitialized()
+    {
+        if(@data?.eventAttendanceMode == "in-person")
+        {
+            eventType = "success";
+            tooltiptitle = data?.location?.address?.addressRegion ?? "";
+            tooltiptitle += !string.IsNullOrEmpty(tooltiptitle) ? $", {data?.location?.address?.addressCountry}" : "";
+        }
+        else if(@data?.eventAttendanceMode == "online")
+        {
+            eventType = "dark";
+        }
+        else if(@data?.eventAttendanceMode == "hybrid")
+        {
+            eventType = "info";
+            tooltiptitle = data?.location?.address?.addressRegion ?? "";
+            tooltiptitle += !string.IsNullOrEmpty(tooltiptitle) ? $", {data?.location?.address?.addressCountry}" : "";
+        }
+        else
+        {
+            eventType = "dark";
+        }
+        urlEvent = string.IsNullOrEmpty(@data?.superEvent?.about?.url) ? currentPage : @data?.superEvent?.about?.url;
+        urlOrganizer = string.IsNullOrEmpty(@data?.organizer?.url) ? currentPage : @data?.organizer?.url;
+        targetEvent = urlEvent == currentPage ? "_self" : "_blank";
+        targetOrganizer = urlOrganizer == currentPage ? "_self" : "_blank";
+    }
 }

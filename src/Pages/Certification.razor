@@ -1,10 +1,65 @@
-<div class="certification">
-    <h3>@data?.Title</h3>
-    <h4>@data?.CertificateIssuer (@data?.ValidityPeriod)</h4>
-    <div>@data?.Description</div>
-</div>
+@inject IJSRuntime JSRuntime
+
+@* <div class="certification"> *@
+
+    @if (!string.IsNullOrEmpty(@data?.ThumbnailUrl))
+    {
+        <li class="list-inline-item">
+        <div class="gcp-badge">
+            <a href="@existingURL" target="@target" rel="noopener noreferrer">
+                <div class="image-container">
+                @if(@data?.ThumbnailUrl?.EndsWith("svg") ?? true)
+                {
+                        <img width="150" height="120" src="@data?.ThumbnailUrl" alt="@data?.Title" />
+                }
+                else
+                {
+                        <img width="150" src="@data?.ThumbnailUrl" alt="@data?.Title" />
+                    
+                }
+                </div>
+                <p class="text-md-center my-0 text-dark">@data?.Title</p>
+                <p class="text-md-center text-muted"><i>Issuer: @data?.CertificateIssuer</i></p>
+            </a>
+        </div>
+        </li>
+    }
+    else if (@data?.Url?.StartsWith("<") ?? false)
+    {
+        <li class="list-inline-item">
+        <span id="addressLine">@((MarkupString)@data?.Url?.Replace("\r\n", "<br />"))</span>
+        </li>
+    }
+    else
+    {
+        <div class="certifications mt-4">
+            <a href="@existingURL" target="@target" rel="noopener noreferrer">
+                <h3>@data?.Title</h3>
+            </a>
+            <h4>@data?.CertificateIssuer (@data?.ValidityPeriod)</h4>
+            <div>@data?.Description</div>
+        </div>
+    }
+    
+@* </div> *@
 
 @code {
     [Parameter]
     public CertificationModel? data { get; set; }
+    public string? existingURL { get; set; }
+    public string? target { get; set; }
+
+    protected override void OnInitialized()
+    {
+        existingURL = string.IsNullOrEmpty(@data?.Url) ? "skills" : @data?.Url;
+        target = existingURL == "skills" ? "_self" : "_blank";
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("loadCredlyEmbedScript");
+        }
+    }
 }

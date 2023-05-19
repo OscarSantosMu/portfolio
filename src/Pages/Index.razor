@@ -4,36 +4,71 @@
 
 <PageTitle>Index</PageTitle>
 
-<div class="about">
-<h2>Oscar Santos</h2>
+<div class="post-header-cover" data-behavior="1" style="background-image: url(/img/me/me-2-to-1/coloquio_leon_blend.jpg);">
 
-Welcome to your new Portfolio app. In this home page you will find instructions to set up everything you need to use this template.
-For local development, this page will be shown by default and will be hidden when all checkboxes are marked using local storage.
-For production, this page will never be shown.
+    <div style="padding-top: 0; padding: 0;">
+
+        <div class="profile-card">
+            <div class="profile-card__img" style="margin-top: 40px;">
+                <img src="/img/me/profile/1-5526-re-square.jpg" alt="profile card">
+            </div>
+
+            <div class="profile-card__cnt">
+                <div class="profile-card__name" style="color: white; font-size: 34px;">Hello, I'm Oscar!</div>
+
+                <div class="profile-card-home__txt">
+                    💡 Transforming ideas into functional solutions.
+                    <br>🌍 <a href="https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/1302fa76-103b-4b96-8f27-4d650e867821" target="_blank" rel="noopener" style="text-decoration:underline;">Gold Microsoft Learn Student Ambassador</a> | 🐸 Co-leader and co-founder of <a href="https://linktr.ee/azuretechfrogs" target="_blank" rel="noopener" style="text-decoration:underline;">Azure Tech Frogs</a> 
+                    | 📀 Windows Insider | ☁️ Microsoft, AWS & GCP Certified | 📝 <a href="https://www.c-sharpcorner.com/members/oscar-santos3" target="_blank" rel="noopener" style="text-decoration:underline;">Technical Writer</a> | 🎤 <a href="speaking" style="text-decoration:underline;">Public Speaker</a> | 🆘 Mentor at Hackathons.
+                </div>
+
+                <div class="profile-card-social">
+                    <a href="https://linkedin.com/in/oscarsantosmu" class="profile-card-social__item linkedin" target="_blank">
+                        <span class="icon-font">
+                               
+                               <i class="sidebar-button-icon fa fa-md fa-linkedin" style="color:white"></i>
+                            </span>
+                    </a>
+
+                    <a href="https://twitter.com/oscarsantosmu" class="profile-card-social__item twitter" target="_blank">
+                        <span class="icon-font">
+                         
+                         <i class="sidebar-button-icon fa fa-md fa-twitter" style="color:white"></i>
+                      </span>
+                    </a>
+
+                    <a href="https://github.com/oscarsantosmu" class="profile-card-social__item github" target="_blank">
+                        <span class="icon-font">
+                                
+                                <i class="sidebar-button-icon fa fa-md fa-github" style="color:white"></i>
+                            </span>
+                    </a>
+
+                    <a href="https://www.c-sharpcorner.com/members/oscar-santos3" class="profile-card-social__item medium" target="_blank">
+                        <span class="icon-font">
+                        
+                        <i class="fa-regular fa fa-md fa-newspaper" style="color:white"></i>
+                    </span>
+                    </a>
+
+                    <a href="https://sessionize.com/oscarsantosmu" class="profile-card-social__item sessionize" target="_blank">
+                        <span class="icon-font">
+                        
+                        <i class="fa-solid fa-microphone-lines" style="color:white"></i>
+                    </span>
+                    </a>
+
+                    <a href="https://stackoverflow.com/users/21808280/oscar-santos" class="profile-card-social__item stackoverflow" target="_blank">
+                        <span class="icon-font">
+                        
+                        <i class="fa-brands fa-stack-overflow" style="color:white"></i>
+                    </span>
+                    </a>
+
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
 </div>
-
-@if (!allChecked)
-{
-    <Instructions OnAllChecked="@HandleAllChecked"></Instructions>
-}
-else
-{
-    NavigationManager.NavigateTo("/background", forceLoad: true);
-}
-
-@code {
-    private bool allChecked;
-
-    private async Task HandleAllChecked(bool allChecked)
-    {
-        this.allChecked = allChecked;
-        await JSRuntime.InvokeVoidAsync("localStorage.setItem", "allChecked", allChecked);
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        var allCheckedStr = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "allChecked");
-        allChecked = Convert.ToBoolean(allCheckedStr);
-    }
-
-}

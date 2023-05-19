@@ -1,0 +1,34 @@
+@page "/articles"
+@using Portfolio.ViewModels
+@inject IResumeViewModel _resumeViewModel
+
+<PageTitle>Articles</PageTitle>
+
+<div class="">
+    <div class="mx-auto">
+    <h2 class="text-md-center">Articles</h2>
+
+    @if (_resumeViewModel != null && _resumeViewModel.Articles != null)
+    {
+        foreach (var articleModel in _resumeViewModel.Articles)
+        {
+            <Article data=@articleModel></Article>
+        }
+    }
+    else
+    {
+      <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">Content Not Found</h4>
+        <p>Sorry, we could not load this section due to an error or unexisting content.</p>
+      </div>
+    }
+    @* </div> *@
+
+    </div>
+</div>
+
+
+@code {
+    protected override async Task OnInitializedAsync() => await _resumeViewModel.GetAccomplishments();
+
+}

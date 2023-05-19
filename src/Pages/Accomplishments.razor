@@ -1,4 +1,4 @@
-@page "/accomplishments"
+@* @page "/accomplishments" *@
 @using Portfolio.ViewModels
 @inject IResumeViewModel _resumeViewModel
 
@@ -58,25 +58,6 @@
         foreach (var articleModel in _resumeViewModel.Articles)
         {
             <Article data=@articleModel></Article>
-        }
-    }
-    else
-    {
-      <div class="alert alert-warning" role="alert">
-        <h4 class="alert-heading">Content Not Found</h4>
-        <p>Sorry, we could not load this section due to an error or unexisting content.</p>
-      </div>
-    }
-</div>
-
-<div class="conferences">
-    <h2>Conferences</h2>
-
-    @if (_resumeViewModel != null && _resumeViewModel.Conferences != null)
-    {
-        foreach (var conferenceModel in _resumeViewModel.Conferences)
-        {
-            <Conference data=@conferenceModel></Conference>
         }
     }
     else

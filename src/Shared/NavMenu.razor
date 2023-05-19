@@ -2,7 +2,7 @@
 
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">Portfolio</a>
+        <a class="navbar-brand" href="">Oscar Santos</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -11,17 +11,34 @@
 
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="flex-column">
-        @if (!allChecked)
-        {
-            <div class="nav-item px-3">
-                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                    <span class="oi oi-home" aria-hidden="true"></span> Home
-                </NavLink>
-            </div>   
-        }
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="background" Match="NavLinkMatch.All">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Background
+            <div class="profile-card">
+                <div class="profile-card-nav__img" style="margin-top: 120px;">
+                    <img src="/img/me/profile/1-5580-re-square.jpg" alt="profile card">
+                </div>
+                <div class="profile-card-social" style="margin-top: 10px;">
+                    <a href="https://twitter.com/oscarsantosmu" target="_blank" rel="noopener">
+                        <img src="https://img.shields.io/twitter/follow/oscarsantosmu?label=@@oscarsantosmu&style=social" alt="Twitter" />
+                    </a>
+                    <a href="https://github.com/oscarsantosmu" target="_blank" rel="noopener" style="margin-left: 10px;">
+                        <img src="https://img.shields.io/github/followers/oscarsantosmu.svg?label=GitHub&style=social" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div> 
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="speaking" Match="NavLinkMatch.All">
+                <span class="oi oi-microphone" aria-hidden="true"></span> Speaking
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="projects">
+                <span class="oi oi-fork" aria-hidden="true"></span> Portfolio
             </NavLink>
         </div>
         <div class="nav-item px-3">
@@ -30,13 +47,8 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="accomplishments">
-                <span class="oi oi-flag" aria-hidden="true"></span> Accomplishments
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="projects">
-                <span class="oi oi-fork" aria-hidden="true"></span> Projects
+            <NavLink class="nav-link" href="articles">
+                <span class="oi oi-pencil" aria-hidden="true"></span> Articles
             </NavLink>
         </div>
     </nav>
@@ -47,17 +59,9 @@
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    private bool allChecked;
-
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        var allCheckedStr = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "allChecked");
-        allChecked = Convert.ToBoolean(allCheckedStr);
     }
 
 }

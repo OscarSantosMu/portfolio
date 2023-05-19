@@ -1,0 +1,92 @@
+@page "/speaking"
+@using Portfolio.ViewModels
+@inject ISpeakingViewModel _speakingViewModel
+
+<PageTitle>Public Speaking</PageTitle>
+
+<div class="conferences">
+    <div class="container">
+
+    <h2>Public Speaking</h2>
+        
+        <p>I love to share my knowledge and experience with others. Over the years, I have given conferences, workshops and courses on topics such as cloud computing, infrastructure as code, artificial intelligence, internet of things and many developer technologies. My goal is to inspire, motivate and educate my audience with a dynamic and clear style, adapted to each context. I am passionate about engaging with people who are curious and eager to learn more about the latest trends and developments in the tech industry. </p>
+        <p>Find below more information about my interventions, testimonials and services.</p>
+    
+    </div>
+</div>
+
+<Carousel ></Carousel>
+<p class="text-muted text-md-center mt-1">Me speaking at several events.</p>
+
+<div class="alert alert-secondary mt-2" role="alert">
+  <h4 class="alert-heading">Hire me for your event</h4>
+  <p>If you would like me to speak at your event, please <a href="mailto:oscarsantosmu@gmail.com">send me an email</a>.</p>
+    <hr>
+    <p class="mb-0">For other services, hire me here.</p>
+</div>
+
+@* Blockquote for a message for the user *@
+@* <blockquote class="blockquote">
+  <p class="mb-4">"I have had the pleasure of working with David on several occasions. He is a very knowledgeable and passionate speaker. He is able to explain complex concepts in a simple and understandable way. He is also very good at adapting his presentations to the audience. I highly recommend him as a speaker."</p>
+  <footer class="blockquote-footer">Sébastien Pertus, <cite title="Source Title">Microsoft</cite></footer>
+</blockquote> *@
+
+<div class="conferences px-5">
+    <div class="container">
+    <h2>Conferences</h2>
+
+    @if (_speakingViewModel != null && _speakingViewModel.Conferences != null)
+    {
+        int previousYear = 0;
+        foreach (var conferenceModel in _speakingViewModel.Conferences)
+        {
+            DateTime startDate = GetDate(conferenceModel?.startDate);
+            if (startDate.Year != previousYear)
+            {
+                <h3 class="text-md-center">@startDate.Year</h3>
+                <hr>
+                if (@startDate.Year == 2022)
+                {
+                    <img class="d-block w-100 mb-1" src="/img/me/calzadacode.jpg" alt="Talent Land at Developer Land">
+                    <p class="text-muted text-md-center">Conference &#64; Calzada Code.</p>
+                }
+                else if(@startDate.Year == 2021)
+                {
+                    <img class="d-block w-100 mb-1" src="/img/me/coloquio_leon.jpg" alt="Talent Land at Developer Land">
+                    <p class="text-muted text-md-center">Conference &#64; 1st municipal colloquium of young researchers.</p>
+                }
+            }
+            <Conference data=@conferenceModel></Conference>
+            previousYear = startDate.Year;
+        }
+    }
+    else
+    {
+      <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">Content Not Found</h4>
+        <p>Sorry, we could not load this section due to an error or unexisting content.</p>
+      </div>
+    }
+    </div>
+</div>
+
+<div class="alert alert-secondary mt-2" role="alert">
+  <h4 class="alert-heading">Hire me for your event</h4>
+  <p>If you would like me to speak at your event, please <a href="mailto:oscarsantosmu@gmail.com">send me an email</a>.</p>
+    <hr>
+    <p class="mb-0">For other services, hire me here.</p>
+</div>
+
+@code {
+    
+
+    public DateTime dateTime { get; set; }
+    protected override async Task OnInitializedAsync() => await _speakingViewModel.GetConferences();
+        
+    private DateTime GetDate(string? dateString)
+    {
+        string format = "MMMM yyyy"; // "MMMM" represents the full month name, and "yyyy" represents the four-digit year
+        // Using DateTime.ParseExact:
+        return DateTime.ParseExact(dateString ?? "", format, CultureInfo.InvariantCulture);
+    }
+}

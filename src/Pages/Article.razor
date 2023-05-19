@@ -1,9 +1,36 @@
-<div class="article">
-    <h3> @data?.ArticleName </h3>
-    <h4> @data?.Journal </h4>
-    <div> @data?.Description </div>
-    <a href="@data?.Url"> Know more </a>
-</div>
+<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
+
+    <div class="postShorten-wrap">
+        <div class="blog-card">
+        <div class="meta">
+            <div class="photo" style="background-image: url(@data?.ThumbnailUrl)"></div>
+        </div>
+        <a href="@data?.Url" target="_blank" rel="noopener">
+        <div class="description">
+            <h1>@data?.ArticleName</h1>
+            <h4> @data?.Journal </h4>
+            <h2>@data?.DatePublished - @data?.TimeRequired </h2>
+            <p>
+                @* Take the first 150 characters from @data?.Description *@
+                @if (@data?.Description?.Length > 147)
+                {
+                    string txt = $"{@data?.Description?.Substring(0, 147)}...";
+                    @txt
+                }
+                else
+                {
+                    @data?.Description
+                }
+            </p>
+            <p class="read-more">
+            <a href="@data?.Url" target="_blank" rel="noopener">Read More</a>
+            </p>
+        </div>
+        </a>
+        </div>
+    </div>
+
+</article>
 
 @code {
     [Parameter]
