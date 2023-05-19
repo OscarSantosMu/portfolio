@@ -1,0 +1,1864 @@
+{
+    "EducationEvent": [{
+            "assesses": "App development with AI",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Open AI Service, AI assistants, integrated intelligence in the apps",
+            "about": {
+                "additionalType": "",
+                "description": "A session talking about trends, challenges and best practices in artificial intelligence. Moreover, exploring the future of app development with AI assistants and integrated intelligence in the apps.",
+                "image": "",
+                "name": "The Future of App Development with AI assistants and integrated intelligence",
+                "url": "https://www.youtube.com/watch?v=5SaKqk9gcuQ"
+
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "April 2023",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "AI, App",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Reactor YouTube Channel"
+            },
+            "organizer": {
+                "name": "Microsoft",
+                "url": "https://developer.microsoft.com/en-us/reactor/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "April 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Microsoft Reactor",
+                    "url": "https://developer.microsoft.com/en-us/reactor/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Serverless compute",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Functions",
+            "about": {
+                "additionalType": "",
+                "description": "In this session I discussed the advantages and limitations of Azure Functions to create more scalable and less expensive solutions. I demonstrated the use cases and why you should migrate some of your existing applications to this schema.",
+                "image": "",
+                "name": "Introduction to serverless compute with Azure Functions",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "April 2023",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "Guadalajara",
+                    "addressRegion": "Jalisco",
+                    "postalCode": "44550",
+                    "streetAddress": "Av. Mariano Otero 1499, Verde Valle, 44550 Guadalajara, Jal."
+                },
+                "description": "Microsoft Stand",
+                "name": "Expo Guadalajara"
+            },
+            "organizer": {
+                "name": "Fundación Talent Land A.C",
+                "url": "https://www.talent-land.mx/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "April 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Talent Land 2023",
+                    "url": "https://www.talent-land.mx/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Geolocation services",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Maps, Azure Static Web Apps",
+            "about": {
+                "additionalType": "https://workshops.talent-land.mx/en",
+                "description": "In this workshop we showed how to create a web application that allows you to map routes between different points using Azure Static Web Apps and Azure Maps services. We showed how to use Azure Maps APIs to obtain geographic information, calculate distances and times, and display interactive maps in your web application.",
+                "image": "",
+                "name": "Web application for mapping routes with Azure Static Web Apps and Azure Maps",
+                "url": ""
+            },
+            "duration": {
+                "description": "50 minutes"
+            },
+            "endDate": "April 2023",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure, Web",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "Guadalajara",
+                    "addressRegion": "Jalisco",
+                    "postalCode": "44550",
+                    "streetAddress": "Av. Mariano Otero 1499, Verde Valle, 44550 Guadalajara, Jal."
+                },
+                "description": "Workshop zone",
+                "name": "Expo Guadalajara"
+            },
+            "organizer": {
+                "name": "Fundación Talent Land A.C",
+                "url": "https://www.talent-land.mx/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "April 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Talent Land 2023",
+                    "url": "https://www.talent-land.mx/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Lower costs with ephemeral infrastructure",
+            "educationalLevel": "advanced",
+            "teaches": "GitHub Actions, Terraform",
+            "about": {
+                "additionalType": "https://www.talent-land.mx/eventos/acelerando-el-desarrollo-de-aplicaciones-y-reduciendo-gastos-de-operacion-con-entornos-efimeros-y-repetibles-oscar-santos/",
+                "description": "In this conference I taught how to use Infrastructure as Code (IaC) to create ephemeral and repeatable environments in the cloud, allowing you to automate the creation of resources and save Operational Expenditure.",
+                "image": "",
+                "name": "Speed up app development and reduce OpEx with ephemeral and repeatable environments",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "April 2023",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure, Web, Terraform, GitHub Actions",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "Guadalajara",
+                    "addressRegion": "Jalisco",
+                    "postalCode": "44550",
+                    "streetAddress": "Av. Mariano Otero 1499, Verde Valle, 44550 Guadalajara, Jal."
+                },
+                "description": "Developer Land",
+                "name": "Expo Guadalajara"
+            },
+            "organizer": {
+                "name": "Fundación Talent Land A.C",
+                "url": "https://www.talent-land.mx/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "April 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Talent Land 2023",
+                    "url": "https://www.talent-land.mx/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Unsupervised machine learning",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Machine Learning Designer",
+            "about": {
+                "additionalType": "https://global-ai-bootcamp-latinoamerica-2023.sessionize.com/session/447675",
+                "description": "Clustering is an unsupervised machine learning technique used to group similar entities based on their features. In this workshop we will train and publish a clustering model with the Azure Machine Learning designer.",
+                "image": "",
+                "name": "Create a clustering model with Azure Machine Learning designer",
+                "url": "https://www.youtube.com/live/gHbzHNxK9Kk?feature=share&t=10938"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "March 2023",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "English",
+            "keywords": "Cloud, Microsoft Azure, AI",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Xamarin en Español YouTube channel"
+            },
+            "organizer": {
+                "name": "AI Microsoft MVPs",
+                "url": "https://globalai.community/bootcamp-2023/north-america-mexico-5931/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "March 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Global AI bootcamp 2023",
+                    "url": "https://globalai.community/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Web development",
+            "educationalLevel": "beginner",
+            "teaches": "Blazor WebAssembly, GitHub Pages, GitHub Codespaces, GitHub Actions",
+            "about": {
+                "additionalType": "https://github.com/OscarSantosMu/portfolio-blazor-template",
+                "description": "Step-by-step workshop to deploy a customizable Blazor WebAssembly SPA website to GitHub Pages using GitHub Codespaces and GitHub Actions.",
+                "image": "",
+                "name": "Create a website for your CV with Blazor WebAssembly and GitHub",
+                "url": ""
+            },
+            "duration": {
+                "description": "90 minutes"
+            },
+            "endDate": "February 2023",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Web, GitHub, GitHub Actions, AI",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "CDMX",
+                    "addressRegion": "CDMX",
+                    "postalCode": "06700",
+                    "streetAddress": "Zacatecas 94, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX"
+                },
+                "description": "",
+                "name": "Casa Rafael Galván"
+            },
+            "organizer": {
+                "name": "Techmaniacxs",
+                "url": "https://heylink.me/techmaniacxs/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "February 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Techmania 2023",
+                    "url": "https://www.facebook.com/photo/?fbid=155327557421148&set=pcb.155327674087803"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Developer environment",
+            "educationalLevel": "beginner",
+            "teaches": "GitHub Codespaces, Python",
+            "about": {
+                "additionalType": "https://github.com/OscarSantosMu/codespaces-demo-py",
+                "description": "The first part consisted of explaining the theory and requirements. Then, in the second part, it was put into practice during this live demonstration.",
+                "image": "",
+                "name": "Learning GitHub Codespaces with Python or Python with GitHub Codespaces",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "February 2023",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "GitHub, Python",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Teams"
+            },
+            "organizer": {
+                "name": "Oscar Santos",
+                "url": "https://linktr.ee/oscarsantosmu"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "February 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "",
+                    "url": ""
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Infrastructure management, Infrastructure as Code",
+            "educationalLevel": "intermediate",
+            "teaches": "Azure DevOps, Terraform",
+            "about": {
+                "additionalType": "https://azureday.community/es-live-from-mexico/azure-devops-y-terraform-las-herramientas-perfectas-para-la-gestion-de-infraestructura/",
+                "description": "Infrastructure as code (IaC) is booming, along with automation through pipelines and code management that allow us to know exactly the status of the deployed infrastructure. In this conference, Azure DevOps was used to illustrate an example of a development lifecycle improvement with Azure Pipelines and Terraform.",
+                "image": "",
+                "name": "Azure DevOps & Terraform, the perfect tools for infrastructure management",
+                "url": "https://youtu.be/3p_HPhpX6Qk?t=16096"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "January 2023",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure, Azure DevOps, DevOps, Terraform",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Lowlands.Community YouTube channel"
+            },
+            "organizer": {
+                "name": "Microsoft MVPs",
+                "url": "https://azureday.community/about/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "January 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "With sessions on various topics related to Azure but also sessions about Cloud Native, Development, Developer Experience & Tooling, AI and Accessibility",
+                    "image": "",
+                    "name": "Virtual Azure Community Day 2023",
+                    "url": "https://azureday.community/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Code review automation, testing, CI/CD",
+            "educationalLevel": "intermediate",
+            "teaches": "GitHub Actions, GitHub Codespaces",
+            "about": {
+                "additionalType": "https://github.com/OscarSantosMu/gh-oss-automations-workshop",
+                "description": "In this conference, advantages of DevOps practices and GitHub tools were discussed, such as GitHub Actions and Codespaces, to optimize time and streamline the development process. In addition, a practical example of how to implement a CI/CD flow and deployment to Microsoft Azure was presented.",
+                "image": "",
+                "name": "Automate code review and deployment in Azure with GitHub Actions",
+                "url": ""
+            },
+            "duration": {
+                "description": "30 minutes"
+            },
+            "endDate": "January 2023",
+            "eventAttendanceMode": "hybrid",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "GitHub, GitHub Actions, DevOps, Microsoft Azure",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "CDMX",
+                    "addressRegion": "CDMX",
+                    "postalCode": "06500",
+                    "streetAddress": "Av. P.º de la Reforma 373-Piso 20, Cuauhtémoc, 06500 Ciudad de México, CDMX"
+                },
+                "description": "",
+                "name": "Platzi"
+            },
+            "organizer": {
+                "name": "GitHub ¡Presente!: En Español",
+                "url": "https://www.meetup.com/es/githublatam/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "January 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "GitHub Open Source CDMX",
+                    "url": "https://www.meetup.com/es-ES/githublatam/events/289607041/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Infrastructure as Code",
+            "educationalLevel": "intermediate",
+            "teaches": "Microsoft Azure, Terraform",
+            "about": {
+                "additionalType": "https://github.com/OscarSantosMu/calzada-code-workshop",
+                "description": "The objective was to demonstrate the advantages of using Infrastructure as Code (IaC).",
+                "image": "",
+                "name": "Deploying Cloud Infrastructure with Code",
+                "url": ""
+            },
+            "duration": {
+                "description": "35 minutes"
+            },
+            "endDate": "December 2022",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, GitHub, Terraform, DevOps, Microsoft Azure",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "León",
+                    "addressRegion": "Guanajuato",
+                    "postalCode": "37000",
+                    "streetAddress": "Estación Mercado Madero 734 Calle Francisco I. Madero León, GUA 37000"
+                },
+                "description": "",
+                "name": "Estación Madero"
+            },
+            "organizer": {
+                "name": "Calzada Code",
+                "url": "https://www.eventbrite.com.mx/o/calzada-code-29194232051"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "December 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Calzada Code Talks #26 - Posada Edition",
+                    "url": "https://www.eventbrite.com.mx/e/calzada-code-talks-26-posada-edition-tickets-482015520397"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Web development",
+            "educationalLevel": "beginner",
+            "teaches": "Blazor WebAssembly, GitHub Codespaces, Azure Static Web Apps",
+            "about": {
+                "additionalType": "https://github.com/OscarSantosMu/terasoft-workshop",
+                "description": "Step-by-step workshop to deploy a customizable Blazor WebAssembly SPA website to the cloud using tools already configured in GitHub Codespaces template.",
+                "image": "",
+                "name": "Create a website for your CV with Blazor WebAssembly, GitHub Codespaces and Azure Static Web Apps",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "December 2022",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, GitHub, Microsoft Azure, C#",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": ""
+            },
+            "organizer": {
+                "name": "Terasoft",
+                "url": ""
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "December 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Terasoft",
+                    "url": ""
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Developer environment",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Lab Services",
+            "about": {
+                "additionalType": "",
+                "description": "In this talk I showed how easy and fast it is to create, manage, provision and destroy labs of several identical virtual machines using Azure Lab Services, with the software of your choice, so that students can do their homework or practice from home using the lab machines in a safe and secure way.",
+                "image": "",
+                "name": "Creating virtual computer labs for your students with Azure",
+                "url": "https://youtu.be/5VBFHB0cG-Q?t=366"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "October 2022",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": ""
+            },
+            "organizer": {
+                "name": "Toh Tech Community",
+                "url": "https://beacons.ai/tohtech"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "October 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Toh Tech Community: Explore",
+                    "url": "https://www.eventbrite.com.mx/e/explore-evento-de-lanzamiento-tickets-436614685277"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Computer Vision and Machine Learning",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Custom Vision",
+            "about": {
+                "additionalType": "",
+                "description": "Azure Custom Vision allows you to create models which can classify and detect items in images. You could use this to detect a breed of dog, if someone is wearing a helmet, or the presence of other features. While this could be done by using code and manually processing the images, Custom Vision provides a web-based interface and tooling to streamline the process. No prior knowledge of machine learning or math is required!",
+                "image": "",
+                "name": "Build a Machine Learning Model using Custom Vision",
+                "url": "https://www.youtube.com/watch?v=AzH3eplmyFw"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "June 2022",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure, AI",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Reactor YouTube Channel"
+            },
+            "organizer": {
+                "name": "Microsoft",
+                "url": "https://developer.microsoft.com/en-us/reactor/"
+            },
+            "performer": {
+                "name": "Oscar Santos & David Lázaro"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "June 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Microsoft Reactor",
+                    "url": "https://developer.microsoft.com/en-us/reactor/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Automated Machine Learning",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Machine Learning Studio",
+            "about": {
+                "additionalType": "",
+                "description": "In this workshop, theory about the different approaches for machine learning models were discussed. Then, for a hands-on practice example, a predictive model was trained using AutoML and deployed to Azure Container Instances.",
+                "image": "",
+                "name": "Azure Automated Machine Learning",
+                "url": "https://youtu.be/ufyDsq6ywtc?t=348"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "May 2022",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure, AI",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Learn Student Ambassadors YouTube Channel"
+            },
+            "organizer": {
+                "name": "Microsoft Learn Student Ambassadors",
+                "url": "https://studentambassadors.microsoft.com/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "May 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "AI and ML Days",
+                    "url": ""
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Internet of Things, Serverless",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Logic Apps, Azure IoT Hub, EventGrid",
+            "about": {
+                "additionalType": "https://sessionize.com/s/oscarsantosmu/get-the-most-out-of-your-iot-solutions-with-server/50469",
+                "description": "With the use of IoT, device management and monitoring processes have become simpler. With serverless design patterns engineers can be alerted when devices go offline or when there is an anomaly in a measured value. In addition, no data is lost during an outage as all data is saved in cloud storage.",
+                "image": "",
+                "name": "Get the most out of your IoT solutions with Serverless workloads",
+                "url": "https://youtu.be/5E9KxYOA_vg?t=924"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "May 2022",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure, IoT",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft UCuenca Community YouTube Channel"
+            },
+            "organizer": {
+                "name": "Microsoft UCuenca Community",
+                "url": "https://microsoftucuenca.org/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "May 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Global Azure 2022",
+                    "url": "https://globalazure.net/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "AI programming copilots for electronics programming",
+            "educationalLevel": "beginner",
+            "teaches": "GitHub Copilot",
+            "about": {
+                "additionalType": "",
+                "description": "This workshop consisted of a live coding session to demonstrate the advantages of using GitHub Copilot to assist us while programming the code of an embedded electronic system.",
+                "image": "",
+                "name": "Programming electronics with GitHub Copilot",
+                "url": "https://youtu.be/f3Qk_4nXObk?t=197"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "March 2022",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Electronics, AI, GitHub",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Hackademy YouTube Channel"
+            },
+            "organizer": {
+                "name": "HackademyMX",
+                "url": "https://hackademy.lat/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "March 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "Día 3",
+                    "image": "",
+                    "name": "Padawan's Arduino Week",
+                    "url": "https://www.facebook.com/gdsc.latam/posts/te-perdiste-el-padawans-arduino-week-no-te-preocupes-pasa-que-hoy-hablaremos-de-/153806883774426/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "AI programming copilots for engineering tasks",
+            "educationalLevel": "beginner",
+            "teaches": "GitHub Copilot",
+            "about": {
+                "additionalType": "",
+                "description": "During this workshop several thoughts were discussed about GitHub Copilot, not only including the advantages from it but also the things that could be improved over the time. As a technical preview people can not expect a perfect tool, however, as shown during the workshop, it saves a lot of time during the coding, allowing programmers to focus on app's logic. Different languages were tested and several examples of different contexts were tested.",
+                "image": "",
+                "name": "GitHub Copilot as an Engineering Tool",
+                "url": "https://youtu.be/ZhMNX-YBFps?t=17695"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "March 2022",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "AI, GitHub",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Learn Student Ambassadors YouTube Channel"
+            },
+            "organizer": {
+                "name": "GEMecatrónica FIME UANL",
+                "url": "https://www.instagram.com/gemecatronica/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "March 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "Día 3",
+                    "image": "",
+                    "name": "Fin de Semana Mecatrónico 2.0",
+                    "url": "https://www.facebook.com/geimtcfime/photos/pb.100064502089972.-2207520000./1883241958528781/?type=3"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Web development and deployment to the Cloud",
+            "educationalLevel": "beginner",
+            "teaches": "Blazor Server, Azure App Service",
+            "about": {
+                "additionalType": "",
+                "description": "In this workshop we reviewed one of the most powerful tools that C# has for web applications. During the workshop several blazor approaches were discussed and mainly we have focused on the Blazor Server type. A basic Blazor App was created as live-coding and published to Azure App Service. Besides, some NuGet Packages and utilities were used to ilustrate all advantages of this developer technology.",
+                "image": "",
+                "name": "Introduction to Blazor Server and Azure App Service",
+                "url": "https://youtu.be/j4j7pcWs67o?t=208"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "February 2022",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "C#, Cloud, Microsoft Azure, Web",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Learn Student Ambassadors YouTube Channel"
+            },
+            "organizer": {
+                "name": "Microsoft Learn Student Ambassadors",
+                "url": "https://studentambassadors.microsoft.com/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "February 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Azure Cloud Week",
+                    "url": "https://www.eventbrite.com.mx/e/azure-cloud-week-tickets-259056584217"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Sentiment Analysis",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Text Analytics",
+            "about": {
+                "additionalType": "https://sessionize.com/s/oscarsantosmu/introduccion-a-azure-text-analytics/50468",
+                "description": "In this workshop, the different approaches of Natural Language Processing were detailed. Particularly, the sentiment analysis was programmed in Python using the API of the service and using other tools such as Power BI and Microsoft Bot Framework to show several applications.",
+                "image": "",
+                "name": "Introduction to Azure Text Analytics",
+                "url": "https://www.facebook.com/azuretechfrogs/videos/623234252177643/"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "October 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Python, Microsoft Azure, AI, Cloud, Power BI, Bot Framework",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Azure Tech Frogs Facebook Live"
+            },
+            "organizer": {
+                "name": "Xamarin / .NET MAUI en Español, Aprendiendo Azure and Azure Tech Frogs",
+                "url": "https://linktr.ee/azuretechfrogs"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "October 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Global AI Back Together 2021",
+                    "url": "https://globalai.community/global-ai-back-together/north-america-latinoamerica-4433/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Facial Recognition",
+            "educationalLevel": "beginner",
+            "teaches": "Support Vector Machines (SVM)",
+            "about": {
+                "additionalType": "",
+                "description": "During the workshop, the theory of SVM's was explained and a practical example was done with Python to identify someone in an image.",
+                "image": "",
+                "name": "Creating a classifier for facial recognition using Support Vector Machines (SVM)",
+                "url": "https://www.facebook.com/gdscguanajuato/videos/4211153052321775"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "October 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Python, AI",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Google Developer Student Club University of Guanajuato Facebook Live"
+            },
+            "organizer": {
+                "name": "Google Developer Student Club University of Guanajuato",
+                "url": "https://gdsc.community.dev/university-of-guanajuato/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "October 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "GDSC UG talks",
+                    "url": "https://gdsc.community.dev/events/details/developer-student-clubs-university-of-guanajuato-presents-creando-un-clasificador-para-reconocimiento-facial-usando-maquinas-de-vectores-de-soporte-svm/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Personal growth",
+            "educationalLevel": "beginner",
+            "teaches": "Personal experiences",
+            "about": {
+                "additionalType": "",
+                "description": "This talked was dedicated to emphasize the importance of culture and soft skills in school, work and life, based on my personal experience.",
+                "image": "",
+                "name": "From Mexico to Japan: An experience in Asian Lands",
+                "url": "https://youtu.be/okrlnFOEl1A?t=10637"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "September 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Soft skills",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Learn Student Ambassadors YouTube Channel"
+            },
+            "organizer": {
+                "name": "La Nube del Mariachi",
+                "url": "https://www.facebook.com/NubeDelMariachi/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "September 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Culture in Tech",
+                    "url": "https://www.facebook.com/Culture-In-Tech-109309018135951"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Data Visualization",
+            "educationalLevel": "beginner",
+            "teaches": "Matplotlib",
+            "about": {
+                "additionalType": "",
+                "description": "Dedicated to automate cumbersome processes on your own, create more professional graphs with Python and best practices for data management and a summary of the different types of visualizations including geographical maps.",
+                "image": "",
+                "name": "From Excel to Professional Visualizations with Python",
+                "url": "https://www.facebook.com/bisontech1/videos/1225037517997772/"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "August 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Data Science, Python",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Bisontech Facebook live"
+            },
+            "organizer": {
+                "name": "Bisontech",
+                "url": "https://www.facebook.com/bisontech1/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "August 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "August Data",
+                    "url": "https://www.facebook.com/bisontech1/photos/pb.100063557803180.-2207520000./325475969323117/?type=3"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Send data from sensors to a web server",
+            "educationalLevel": "intermediate",
+            "teaches": "MicroPython, Flask",
+            "about": {
+                "additionalType": "https://2021.pycon.co/ponencias/8/",
+                "description": "In this workshop I taught how to set up a server, receive data from sensors and store the information in a database for further analysis.",
+                "image": "",
+                "name": "Building your First IoT Application with Flask and MicroPython",
+                "url": "https://youtu.be/PvX67rqXg8Q"
+            },
+            "duration": {
+                "description": "30 minutes"
+            },
+            "endDate": "June 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "English",
+            "keywords": "IoT, Python, Web",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "PyCon Colombia YouTube Channel"
+            },
+            "organizer": {
+                "name": "PyCon Colombia",
+                "url": "https://www.facebook.com/pyconcolombia"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "June 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "PyCon Colombia",
+                    "url": "https://www.facebook.com/pyconcolombia"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "APIs usage",
+            "educationalLevel": "beginner",
+            "teaches": "JSON, APIs, Python",
+            "about": {
+                "additionalType": "https://www.notion.so/AI-Gaming-Latinoam-rica-89da0136a92c41db9e893e8d669aa2bb",
+                "description": "This workshop demonstrated how Microsoft Azure and other platforms or applications communicate data between them and the client by restricting the number of API calls. The API was programmed step by step showing the process of creation, automatic documentation, database usage and publishing in Microsoft Azure using App Service and GitHub Actions.",
+                "image": "",
+                "name": "Learn about JSON and how to use APIs by creating one with Python",
+                "url": "https://youtu.be/SMqSIxaFKdc?t=3575"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "June 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Python, Web",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Learn Student Ambassadors YouTube Channel"
+            },
+            "organizer": {
+                "name": "Microsoft Learn Student Ambassadors",
+                "url": "https://studentambassadors.microsoft.com/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "June 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "AI Gaming 2021",
+                    "url": "https://help.aigaming.com/microsoft-events-1/microsoft-match-game-events-info"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Sentiment Analysis",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Text Analytics, Azure Storage",
+            "about": {
+                "additionalType": "https://studentambassadors.microsoft.com/en-US/events/2711",
+                "description": "Online workshop for Microsoft Learn Student Ambassadors. We developed an opinion classifier that scored a user's expression that was stored in a queue and later evaluated by a serverless function to store it in a positive, neutral or negative queue storage.",
+                "image": "",
+                "name": "Natural Language Processing in Azure",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "June 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "JavaScript, Cloud, Microsoft Azure, AI",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Teams"
+            },
+            "organizer": {
+                "name": "Microsoft Learn Student Ambassadors",
+                "url": "https://studentambassadors.microsoft.com/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "June 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Ven y Aprende sobre Azure",
+                    "url": ""
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "APIs development",
+            "educationalLevel": "beginner",
+            "teaches": "ASP.NET Core, Azure API Management",
+            "about": {
+                "additionalType": "https://studentambassadors.microsoft.com/en-US/events/2658",
+                "description": "The workshop consisted of creating an API with automatic documentation using Visual Studio and hosted in Azure App Service. Workshop attended by over 340 people.",
+                "image": "",
+                "name": "Publication of an ASP.NET Core web API in Azure",
+                "url": "https://www.facebook.com/BeeDevelopersUG/videos/335778734645550/"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "May 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "C#, Cloud, Microsoft Azure, Web",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "BeeDevelopers UG Facebook Live"
+            },
+            "organizer": {
+                "name": "BeeDevelopers UG",
+                "url": "https://beedevelopers.dev/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "May 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "OpenDay: BeeHack 2021",
+                    "url": "https://beehack.ugto.mx/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Character animations using Human Pose Estimation Computer Vision models",
+            "educationalLevel": "intermediate",
+            "teaches": "Python, Tensorflow, Blender",
+            "about": {
+                "additionalType": "",
+                "description": "Human pose estimation with Tensorflow and tools from Blender software.",
+                "image": "",
+                "name": "Character animation using Computer Vision",
+                "url": ""
+            },
+            "duration": {
+                "description": "30 minutes"
+            },
+            "endDate": "April 2021",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Python, AI, Graphics",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "León",
+                    "addressRegion": "Guanajuato",
+                    "postalCode": "37150",
+                    "streetAddress": "Avenida Universidad 602, Lomas del Campestre, 37150 León, Gto."
+                },
+                "description": "",
+                "name": "Universidad La Salle Bajío"
+            },
+            "organizer": {
+                "name": "León Joven",
+                "url": "http://leonjoven.gob.mx/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "April 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "1st municipal colloquium of young researchers",
+                    "url": "http://leonjoven.gob.mx/?p=8642"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Robotics programming in different levels of abstraction",
+            "educationalLevel": "advanced",
+            "teaches": "Python, RoboDK, Robot Dynamics",
+            "about": {
+                "additionalType": "",
+                "description": "Practical example of SCARA Robot in Python and RoboDK offline programming.",
+                "image": "",
+                "name": "Robot dynamics in Python. How to advance from theory to practice?",
+                "url": "https://youtu.be/SG86Xd140ww?t=3535"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "April 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Python, Robotics, Graphics",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Learn Student Ambassadors YouTube Channel"
+            },
+            "organizer": {
+                "name": "Microsoft Learn Student Ambassadors & IEEE UTCAM BIS",
+                "url": "https://studentambassadors.microsoft.com/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "April 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "Día 1",
+                    "image": "",
+                    "name": "STEM WEEK 2021",
+                    "url": "https://www.facebook.com/profile.php?id=100066309349059"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Data Visualization",
+            "educationalLevel": "beginner",
+            "teaches": "Matplotlib",
+            "about": {
+                "additionalType": "https://github.com/OscarSantosMu/Calidad_del_aire",
+                "description": "Data visualization with Python.",
+                "image": "",
+                "name": "Open data, analyzing data on air quality and its pollutants",
+                "url": ""
+            },
+            "duration": {
+                "description": "30 minutes"
+            },
+            "endDate": "March 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Data Science, Python",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Zoom meeting"
+            },
+            "organizer": {
+                "name": "Ricardo Mirón",
+                "url": "https://github.com/ricardomiron"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "March 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "On Saturday 6th March 2021, the eleventh Open Data Day took place with people around the world organising hundreds of events to celebrate, promote and spread the use of open data.",
+                    "image": "",
+                    "name": "Open Data Day León 2021",
+                    "url": "https://opendataday.org/ca/events/2021/reports/open-data-day-leon-2021/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Integration of Natural Language Processing (NLP) in a chatbot",
+            "educationalLevel": "beginner",
+            "teaches": "QnA Maker, Azure Bot Service, Microsoft Bot Framework Composer",
+            "about": {
+                "additionalType": "",
+                "description": "Natural Language Processing (NLP) with Microsoft Azure Cognitive Services and dialog conversation development in block programming environment.",
+                "image": "",
+                "name": "Programming bots for non-programmers",
+                "url": "https://youtu.be/SjLDeJXx2uc?t=9913"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "February 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "AI, Microsoft Azure, LowCode/NoCode",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Learn Student Ambassadors YouTube Channel"
+            },
+            "organizer": {
+                "name": "Microsoft Learn Student Ambassadors",
+                "url": "https://studentambassadors.microsoft.com/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "February 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Hack LATAM 2021",
+                    "url": "https://www.facebook.com/hacklatamMLSA/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Demonstrate how Computer Vision can be used to diagnose diseases from medical images",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Custom Vision",
+            "about": {
+                "additionalType": "",
+                "description": "The session covered theory from the Computer Vision field and how it can be applied to medical images. Then, a demo was presented using Azure Custom Vision to train a model to diagnose pneumonia from chest X-rays. The workshop was attended by more than 60 people.",
+                "image": "",
+                "name": "Artificial Intelligence applied to medical imaging",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "January 2021",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": "Educafin"
+            },
+            "funding": "subsidy",
+            "inLanguage": "Spanish",
+            "keywords": "AI, Microsoft Azure, Healthcare",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Google Meet meeting"
+            },
+            "organizer": {
+                "name": "Oscar Santos",
+                "url": "https://linktr.ee/oscarsantosmu"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "January 2021",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "",
+                    "url": ""
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        }
+    ]
+}
