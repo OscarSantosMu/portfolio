@@ -1,5 +1,125 @@
 {
     "EducationEvent": [{
+            "assesses": "Internet of Things, Serverless",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Logic Apps, Azure IoT Hub, EventGrid",
+            "about": {
+                "additionalType": "https://globalazure.net/sessions/487335",
+                "description": "With the use of IoT, device management and monitoring processes have become simpler. With serverless design patterns engineers can be alerted when devices go offline or when there is an anomaly in a measured value. In addition, no data is lost during an outage as all data is saved in cloud storage.",
+                "image": "",
+                "name": "Get the most out of your IoT solutions with Serverless workloads",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "May 2022",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure, IoT",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "León",
+                    "addressRegion": "Guanajuato",
+                    "postalCode": "37328",
+                    "streetAddress": "Purísima 502, Col. La Moderna C.P. 37328"
+                },
+                "description": "",
+                "name": "Casa de la Juventud León"
+            },
+            "organizer": {
+                "name": "Azure Tech Frogs",
+                "url": "https://linktr.ee/azuretechfrogs"
+            },
+            "performer": {
+                "name": "Oscar Santos, Francisco Guzmán"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "May 2022",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Global Azure 2023",
+                    "url": "https://globalazure.net/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Identity and Access Management Azure Services",
+            "educationalLevel": "beginner",
+            "teaches": "Azure Active Directory",
+            "about": {
+                "additionalType": "",
+                "description": "In this lecture, I taught the basics of Azure Active Directory (Azure AD), Microsoft's cloud identity service. I showed how to create and manage users, groups and applications in Azure AD. By the end of the lecture, participants had an overview of the benefits and challenges of using Azure AD to manage identity and access in the cloud.",
+                "image": "",
+                "name": "First steps with Azure Active Directory",
+                "url": "https://www.youtube.com/live/XcBuqom7LVA?feature=share&t=3779"
+            },
+            "duration": {
+                "description": "30 minutes"
+            },
+            "endDate": "May 2023",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Cloud, Microsoft Azure",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Toh Tech Community YouTube Channel"
+            },
+            "organizer": {
+                "name": "Toh Tech Community",
+                "url": "https://beacons.ai/tohtech"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "May 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Global Azure 2023",
+                    "url": "https://globalazure.net/sessions/487335"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
             "assesses": "App development with AI",
             "educationalLevel": "beginner",
             "teaches": "Azure Open AI Service, AI assistants, integrated intelligence in the apps",
