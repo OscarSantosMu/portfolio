@@ -25,6 +25,8 @@
     position: relative;
     z-index: 0;
     height: 200px;
+    overflow: hidden;
+    /* Add this line to hide the overflowing image */
 }
 
 .blog-card .photo {
@@ -33,9 +35,12 @@
     right: 0;
     bottom: 0;
     left: 0;
+    /* Set the left position to 0 */
     background-size: cover;
     background-position: center;
     transition: transform 0.2s;
+    clip-path: polygon(0% 100%, 85% 100%, 100% 0%, 0% 0%);
+    /* Update the clip-path property for a less aggressive effect starting from the top-right corner */
 }
 
 .blog-card .details,
@@ -96,8 +101,7 @@
 .blog-card .description {
     padding: 1rem;
     background: #fff;
-    position: relative;
-    z-index: 1;
+    flex-grow: 1;
 }
 
 .blog-card .description h1,
