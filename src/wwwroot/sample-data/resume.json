@@ -249,6 +249,15 @@
             "priority": 5
         },
         {
+            "title": "Using Neural Network to Predict Diffuse Fraction kd (Ratio of the Diffuse-to-Global Solar Radiation)",
+            "description": "This is the repository for all the file related to my research internship in Japan. This includes the final presentation, the report and the code.",
+            "repourl": "https://github.com/OscarSantosMu/NeuralNetworkPrediction",
+            "url": "https://oscarsantosmu.github.io/NeuralNetworkPrediction/",
+            "imageurl": "https://raw.githubusercontent.com/OscarSantosMu/NeuralNetworkPrediction/master/static/img/ANN%20Architecture.png",
+            "keywords": "Python, Pandas, Matplotlib, TensorFlow, Keras, AI, Data Science",
+            "priority": 3
+        },
+        {
             "title": "Dynamics of SCARA Robot",
             "description": "Position, velocity, acceleration and torque calculation of a SCARA Robot.",
             "repourl": "https://github.com/OscarSantosMu/SCARA",
@@ -264,6 +273,15 @@
             "url": "https://oscarsantosmu.github.io/SIL_Project/",
             "imageurl": "https://user-images.githubusercontent.com/57787993/176706206-241d43f0-4138-4016-9838-73e3ecaf9b21.png",
             "keywords": "Bash, Terraform, Microsoft Azure, Cloud",
+            "priority": 4
+        },
+        {
+            "title": "Test Logs Visualization with Graphs",
+            "description": "Automated Selenium testing and visualization of network logs with a graphical dashboard built with Flask and Plotly.",
+            "repourl": "https://github.com/OscarSantosMu/selenium_test_logs_visualization_with_graphs",
+            "url": "https://github.com/OscarSantosMu/selenium_test_logs_visualization_with_graphs/assets/38818848/313f73b5-50a2-4c86-a4bb-cd73d2b7ef13",
+            "imageurl": "https://raw.githubusercontent.com/OscarSantosMu/selenium_test_logs_visualization_with_graphs/66869d0d3f4cf49f1f622e73ce609af5316840d7/static/main%20page.png",
+            "keywords": "Python, Flask, Plotly, Selenium, Elasticsearch, Web, DevOps",
             "priority": 4
         },
         {
@@ -292,6 +310,15 @@
             "imageurl": "https://raw.githubusercontent.com/OscarSantosMu/Calculator/main/static/demo.JPG",
             "keywords": "C#, .NET, Windows Forms",
             "priority": 10
+        },
+        {
+            "title": "Snakes and ladders game",
+            "description": "The famous board game now on your computer with customizable board.",
+            "repourl": "https://github.com/OscarSantosMu/Serpientes_y_escaleras",
+            "url": "https://github.com/OscarSantosMu/Serpientes_y_escaleras/assets/38818848/7823cac5-9fc1-47a6-bfa3-e6a0f7f06495",
+            "imageurl": "https://raw.githubusercontent.com/OscarSantosMu/Serpientes_y_escaleras/master/static/img/game.png",
+            "keywords": "C++, Game Development",
+            "priority": 8
         }
     ]
 }
