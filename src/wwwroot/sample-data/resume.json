@@ -285,6 +285,15 @@
             "priority": 4
         },
         {
+            "title": "Ephemeral Preview environments",
+            "description": "A repo using GitHub actions and Terraform to create cloud services using the GitHub Flow to preview the changes in ephemeral environments before being deployed to production.",
+            "repourl": "https://github.com/OscarSantosMu/terraform-preview-envs",
+            "url": "https://oscarsantosmu.github.io/terraform-preview-envs/",
+            "imageurl": "https://raw.githubusercontent.com/OscarSantosMu/terraform-preview-envs/main/static/img/pr%20deploy%20staging.png",
+            "keywords": "Bash, Terraform, GitHub Actions, Microsoft Azure, DevOps, Cloud",
+            "priority": 3
+        },
+        {
             "title": "Project Portfolio Website with Blazor WebAssembly",
             "description": "Open source project to build your project portfolio and host it online.",
             "repourl": "https://github.com/OscarSantosMu/portfolio-blazor-template",
@@ -303,6 +312,15 @@
             "priority": 4
         },
         {
+            "title": "Crypto Monitoring Website",
+            "description": "A .NET web application to monitor crypto currencies prices.",
+            "repourl": "https://github.com/OscarSantosMu/CryptoProject",
+            "url": "https://oscarsantosmu.github.io/CryptoProject/",
+            "imageurl": "https://raw.githubusercontent.com/OscarSantosMu/CryptoProject/main/assets/img/app/dashboard.PNG",
+            "keywords": "C#, .NET, Microsoft Azure, Terraform, Web, DevOps, Cloud",
+            "priority": 3
+        },
+        {
             "title": "Calculator",
             "description": "Desktop calculator built with .NET and Windows Forms.",
             "repourl": "https://github.com/OscarSantosMu/Calculator",
@@ -319,6 +337,15 @@
             "imageurl": "https://raw.githubusercontent.com/OscarSantosMu/Serpientes_y_escaleras/master/static/img/game.png",
             "keywords": "C++, Game Development",
             "priority": 8
+        },
+        {
+            "title": "Numerical Methods",
+            "description": "A console app with diverse numerical methods to solve equations, calculate eigenvalues and eigenvectors and approximate functions.",
+            "repourl": "https://github.com/OscarSantosMu/Metodos_numericos",
+            "url": "https://oscarsantosmu.github.io/Metodos_numericos/translations/en/",
+            "imageurl": "https://raw.githubusercontent.com/OscarSantosMu/Metodos_numericos/master/static/menu.png",
+            "keywords": "C++, Mathematics, Console App",
+            "priority": 10
         }
     ]
 }
