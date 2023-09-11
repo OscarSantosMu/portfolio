@@ -143,6 +143,24 @@
         "url": "https://www.wipo.int/patents/en/"
     }],
     "articles": [{
+            "articlename": "A Guide to Integrating Azure Cognitive Search into Business Apps",
+            "journal": "C# Corner",
+            "description": "In the rapidly evolving landscape of digital business, the ability to swiftly extract valuable insights from data is no longer a luxury but a necessity. In this article, I will demonstrate how to implement Azure Cognitive Search into your applications.",
+            "url": "https://www.c-sharpcorner.com/article/a-guide-to-integrating-azure-cognitive-search-into-business-apps/",
+            "timeRequired": "4 min read",
+            "datePublished": "September 05, 2023",
+            "thumbnailUrl": "https://img.icons8.com/fluency/240/azure-1.png"
+        },
+        {
+            "articlename": "Exploring Azure Cognitive Search's Power",
+            "journal": "C# Corner",
+            "description": "This article demonstrates the transformative prowess of Azure Cognitive Search, a technological marvel that is reshaping the way we interact with data in our data-driven world.",
+            "url": "https://www.c-sharpcorner.com/article/exploring-azure-cognitive-searchs-power/",
+            "timeRequired": "5 min read",
+            "datePublished": "September 02, 2023",
+            "thumbnailUrl": "https://img.icons8.com/fluency/240/azure-1.png"
+        },
+        {
             "articlename": "Take Your Development Environment Anywhere With GitHub Codespaces",
             "journal": "C# Corner",
             "description": "This article demonstrates the features of GitHub Codespaces for creating fully configured development environments in the cloud. It will explain how to get started with this service, the benefits, some examples, and best practices when using GitHub Codespaces.",
