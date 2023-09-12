@@ -1,5 +1,65 @@
 {
     "EducationEvent": [{
+            "assesses": "Version control",
+            "educationalLevel": "beginner",
+            "teaches": "Git, GitHub",
+            "about": {
+                "additionalType": "https://www.eventbrite.com.mx/e/workcroak-ep-1-git-y-github-101-tickets-703952088647",
+                "description": "An introduction to version control using Git and how to enhance collaboration capabilities in GitHub",
+                "image": "",
+                "name": "Git and GitHub 101",
+                "url": ""
+            },
+            "duration": {
+                "description": "90 minutes"
+            },
+            "endDate": "September 2023",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Git, GitHub",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Microsoft Teams"
+            },
+            "organizer": {
+                "name": "Google Developer Group San Miguel de Allende",
+                "url": "https://gdg.community.dev/gdg-san-miguel-de-allende/"
+            },
+            "performer": {
+                "name": "Oscar Santos, Francisco Guzmán"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "September 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "Hands-on practice with technology",
+                    "image": "",
+                    "name": "WorkCroak: Ep. 1",
+                    "url": "https://linktr.ee/azuretechfrogs"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
             "assesses": "Internet of Things, Serverless",
             "educationalLevel": "beginner",
             "teaches": "Azure Logic Apps, Azure IoT Hub, EventGrid",
