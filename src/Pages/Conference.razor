@@ -1,37 +1,35 @@
-<div class="resume-section-content">
+<ul class="fa-ul mb-0">
 
-    <ul class="fa-ul mb-0">
-
-    <li>
-        <span class="oi oi-microphone" aria-hidden="true"></span><strong>&nbsp @data?.about?.name</strong>
-        <span class="badge btn-@eventType mx-2" data-toggle="tooltip" title="@tooltiptitle">@data?.eventAttendanceMode</span> 
-        @if (!string.IsNullOrEmpty(@data?.location?.description))
-        {
-            <span class="badge btn-primary"><a class="text-white" href="@urlEvent" target="@targetEvent">@data?.superEvent?.about?.name &#64; @data?.location?.description</a></span> 
-        }
-        else
-        {
-            <span class="badge btn-primary"><a class="text-white" href="@urlEvent" target="@targetEvent">@data?.superEvent?.about?.name</a></span> 
-        }
-        <span class="badge btn-secondary mx-2"><a class="text-white" href="@urlOrganizer" target="@targetOrganizer">by @data?.organizer?.name</a></span>
-        <div>
-            @data?.about?.description
-        </div>
-    </li>
-    @if (!string.IsNullOrEmpty(@data?.about?.additionalType))
+<li>
+    <span class="oi oi-microphone" aria-hidden="true"></span><strong>&nbsp @data?.about?.name</strong>
+    <span class="badge btn-@eventType mx-2 custom-badge" data-toggle="tooltip" title="@tooltiptitle"><div class="custom-badge-text">@data?.eventAttendanceMode</div></span> 
+    @if (!string.IsNullOrEmpty(@data?.location?.description))
     {
-        <a href="@data?.about?.additionalType" target="_blank"><span class="oi oi-link-intact" aria-hidden="true"></span> Know More</a><br>
+        <span class="badge btn-primary custom-badge"><a class="text-white custom-badge-text" href="@urlEvent" target="@targetEvent">@data?.superEvent?.about?.name &#64; @data?.location?.description</a></span> 
     }
-    @if (!string.IsNullOrEmpty(@data?.about?.url))
+    else
     {
-        <a href="@data?.about?.url" target="_blank"><span class="oi oi-video" aria-hidden="true"></span> Watch workshop replay</a>
+        <span class="badge btn-primary custom-badge"><a class="text-white custom-badge-text" href="@urlEvent" target="@targetEvent">@data?.superEvent?.about?.name</a></span> 
     }
-    <div class="resume-date text-md-right mb-1">
-        <span class="text-primary">@data?.startDate</span>
+    <span class="badge btn-secondary mx-2 custom-badge"><a class="text-white custom-badge-text" href="@urlOrganizer" target="@targetOrganizer">by @data?.organizer?.name</a></span>
+    <div>
+        @data?.about?.description
     </div>
-
-    </ul>
+</li>
+@if (!string.IsNullOrEmpty(@data?.about?.additionalType))
+{
+    <a href="@data?.about?.additionalType" target="_blank"><span class="oi oi-link-intact" aria-hidden="true"></span> Know More</a><br>
+}
+@if (!string.IsNullOrEmpty(@data?.about?.url))
+{
+    <a href="@data?.about?.url" target="_blank"><span class="oi oi-video" aria-hidden="true"></span> Watch workshop replay</a>
+}
+<div class="resume-date text-md-right mb-1">
+    <span class="text-primary">@data?.startDate</span>
 </div>
+
+</ul>
+
 
 @code {
     [Parameter]
