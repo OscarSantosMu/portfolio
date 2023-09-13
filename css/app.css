@@ -326,3 +326,23 @@ a.text-secondary:focus {
     justify-content: center;
     align-items: center;
 }
+
+.custom-badge {
+    white-space: nowrap;
+    /* Prevent badge text from wrapping */
+    overflow: hidden;
+    /* Hide overflowed text */
+    text-overflow: ellipsis;
+    /* Add ellipsis (...) for overflowed text */
+    max-width: 100%;
+    /* Ensure badges don't expand beyond their container */
+}
+
+.custom-badge-text {
+    display: inline-block;
+    /* Allow badge text to be truncated and break to a new line */
+    white-space: normal;
+    /* Allow text to wrap within the badge */
+    word-wrap: break-word;
+    /* Enable word wrapping for long words */
+}
