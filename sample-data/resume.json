@@ -143,6 +143,15 @@
         "url": "https://www.wipo.int/patents/en/"
     }],
     "articles": [{
+            "articlename": "Converse with your data using your own ChatGPT with Azure OpenAI Service",
+            "journal": "C# Corner",
+            "description": "Data is everywhere. It is the fuel that powers our businesses, our research, our innovation, and our lives. But data is also complex, diverse, and often unstructured. Azure OpenAI Service emerges as a game-changer in this realm, offering a transformative approach to data interaction by enabling users to converse with their data in natural language.",
+            "url": "https://www.c-sharpcorner.com/article/converse-with-your-data-using-your-own-chatgpt-with-azure-openai-service/",
+            "timeRequired": "5 min read",
+            "datePublished": "October 11, 2023",
+            "thumbnailUrl": "https://img.icons8.com/fluency/240/azure-1.png"
+        },
+        {
             "articlename": "A Guide to Integrating Azure Cognitive Search into Business Apps",
             "journal": "C# Corner",
             "description": "In the rapidly evolving landscape of digital business, the ability to swiftly extract valuable insights from data is no longer a luxury but a necessity. In this article, I will demonstrate how to implement Azure Cognitive Search into your applications.",
