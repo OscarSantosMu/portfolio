@@ -18,6 +18,7 @@ namespace Portfolio.ViewModels
         public List<ConferenceModel>? Conferences { get; set; }
         public List<MentorshipModel>? Mentorships { get; set; }
         public List<ProjectModel>? Projects { get; set; }
+        public List<ProjectModel> Highlights { get; set; }
         public KeyWords keyWords { get; set; } = new KeyWords();
         public List<ProjectModel> FilterProjects(string selectedDomain, string selectedTechStack, string condition)
         {
@@ -97,6 +98,74 @@ namespace Portfolio.ViewModels
             }
             Console.WriteLine("Project not found");
             return null;
+        }
+
+        public void GetHighlights()
+        {
+            this.Highlights = new List<ProjectModel>
+            {
+                new ProjectModel
+                {
+                    Title = "Microsoft MVP Award 2023-2024",
+                    Description = "Recognized as a Microsoft Most Valuable Professional (MVP) for outstanding contributions to the community in the AI category.",
+                    RepoUrl = "",
+                    Url = "https://www.linkedin.com/feed/update/urn:li:activity:7171882438745387009/",
+                    ImageURL = "https://raw.githubusercontent.com/OscarSantosMu/portfolio/main/src/wwwroot/img/posts/1st-time-mvp.png",
+                    KeyWords = "Award",
+                    Priority = 1
+                },
+                new ProjectModel
+                {
+                    Title = "Artificial Intelligence and the Cloud",
+                    Description = "Delivered a keynote highlighting the dynamic synergy between Artificial Intelligence and Cloud computing, drawing a sizable audience of over 800 attendees.",
+                    RepoUrl = "",
+                    Url = "https://codigofacilito.com/fin-de-semana-cloud",
+                    ImageURL = "https://codigofacilito.com/assets/codys/programando-circle-83a5c0c48b92a40090f4d46f1b28b026630dd9ee8e51769cf223e53ca3eb32cb.png",
+                    KeyWords = "Public Speaking",
+                    Priority = 2
+                },
+                new ProjectModel
+                {
+                    Title = "HackMTY",
+                    Description = "Hackathon Winner (best use of Google Cloud) in the largest student hackathon in Mexico.",
+                    RepoUrl = "https://github.com/OscarSantosMu/GitSoft-Engine",
+                    Url = "https://www.linkedin.com/posts/oscarsantosmu_hackmty-googlecloud-gitsoftengine-activity-7113248466633400322-5tnv?utm_source=share&utm_medium=member_desktop",
+                    ImageURL = "https://raw.githubusercontent.com/OscarSantosMu/portfolio/main/src/wwwroot/img/me/hacks/hackmty.jpeg",
+                    KeyWords = "Hackathon",
+                    Priority = 3
+                },
+                new ProjectModel
+                {
+                    Title = "PyCon Colombia 2021",
+                    Description = "Presented at PyCon Colombia 2021, a prestigious conference of the Python programming language.",
+                    RepoUrl = "https://oscarsantosmu.github.io/Building_your_First_IoT_Application_with_Flask_and_MicroPython/",
+                    Url = "https://2021.pycon.co/ponencias/8/",
+                    ImageURL = "https://raw.githubusercontent.com/OscarSantosMu/portfolio/main/src/wwwroot/img/me/flyers/pycon21.jpg",
+                    KeyWords = "Public Speaking",
+                    Priority = 4
+                },
+                new ProjectModel
+                {
+                    Title = "Globant AI Code Fest 2023",
+                    Description = "Hackathon Winner (greatest impact on society) among 300 participants across 4 cities in Latin America.",
+                    RepoUrl = "",
+                    Url = "https://www.linkedin.com/feed/update/urn:li:activity:7098433732776206336/",
+                    ImageURL = "https://communications.globant.com/public/code-fest-ai/dist-esp/f61b9288bb8b1f16a393.jpg",
+                    KeyWords = "Hackathon",
+                    Priority = 5
+                },
+                new ProjectModel
+                {
+                    Title = "Converse with your data using your own ChatGPT with Azure OpenAI Service",
+                    Description = "Wrote an article with over 2.5 thousand views on C# Corner.",
+                    RepoUrl = "",
+                    Url = "https://www.c-sharpcorner.com/article/converse-with-your-data-using-your-own-chatgpt-with-azure-openai-service/",
+                    ImageURL = "https://www.c-sharpcorner.com/Jobs/UploadFile/UserData/prvn_131971/logo/ccornerlogo.jpg",
+                    KeyWords = "Article",
+                    Priority = 6
+                },
+                // Add more ProjectModel objects as needed
+            };
         }
 
         private void LoadBackground(ResumeViewModel? resumeViewModel)

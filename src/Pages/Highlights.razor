@@ -1,0 +1,32 @@
+@using Portfolio.ViewModels
+@inject IResumeViewModel _resumeViewModel
+
+<div class="highlights">
+    <h2>Highlights</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
+
+    @if (_resumeViewModel != null && _resumeViewModel.Highlights != null)
+    {
+      foreach (var projectModel in _resumeViewModel.Highlights)
+      {
+        <HighlightsCard data=@projectModel></HighlightsCard>
+      }
+    }
+    else
+    {
+      <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">Content Not Found</h4>
+        <p>Sorry, we could not load this section due to an error or unexisting content.</p>
+      </div>
+    }
+    </div>
+</div>
+
+@code {
+
+    protected override void OnInitialized()
+    {
+        _resumeViewModel.GetHighlights();
+    }
+}
