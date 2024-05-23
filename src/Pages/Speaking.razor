@@ -32,7 +32,7 @@
 </blockquote> *@
 
 <div class="conferences px-5">
-    <div class="container">
+    <div class="container-md-12">
     <h2>Conferences</h2>
 
     @if (_speakingViewModel != null && _speakingViewModel.Conferences != null)
@@ -47,16 +47,18 @@
                 <hr>
                 if (@startDate.Year == 2022)
                 {
-                    <img class="d-block w-100 mb-1" src="https://raw.githubusercontent.com/OscarSantosMu/portfolio/main/src/wwwroot/img/me/calzadacode.jpg" alt="Talent Land at Developer Land">
+                    <img class="d-block w-100 max-width-100 mb-1" src="https://raw.githubusercontent.com/OscarSantosMu/portfolio/main/src/wwwroot/img/me/calzadacode.jpg" alt="Talent Land at Developer Land">
                     <p class="text-muted text-md-center">Conference &#64; Calzada Code.</p>
                 }
                 else if(@startDate.Year == 2021)
                 {
-                    <img class="d-block w-100 mb-1" src="https://raw.githubusercontent.com/OscarSantosMu/portfolio/main/src/wwwroot/img/me/coloquio_leon.jpg" alt="Talent Land at Developer Land">
+                    <img class="d-block w-100 max-width-100 mb-1" src="https://raw.githubusercontent.com/OscarSantosMu/portfolio/main/src/wwwroot/img/me/coloquio_leon.jpg" alt="Talent Land at Developer Land">
                     <p class="text-muted text-md-center">Conference &#64; 1st municipal colloquium of young researchers.</p>
                 }
             }
-            <Conference data=@conferenceModel></Conference>
+            <div class="col-md-12">
+                <Conference data=@conferenceModel></Conference>
+            </div>
             previousYear = startDate.Year;
         }
     }
