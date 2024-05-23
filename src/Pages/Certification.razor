@@ -24,12 +24,12 @@
         </div>
         </li>
     }
-    else if (@data?.Url?.StartsWith("<") ?? false)
+    @* else if (@data?.Url?.StartsWith("<") ?? false)
     {
         <li class="list-inline-item">
         <span id="addressLine">@((MarkupString)@data?.Url?.Replace("\r\n", "<br />"))</span>
         </li>
-    }
+    } *@
     else
     {
         <div class="certifications mt-4">
