@@ -1,5 +1,185 @@
 {
     "EducationEvent": [{
+            "assesses": "AI-assisted programming",
+            "educationalLevel": "beginner",
+            "teaches": "Git, GitHub, GitHub Copilot",
+            "about": {
+                "additionalType": "https://codigofacilito.com/github-copilot",
+                "description": "New capabilities of GitHub Copilot and it enhances the developer workflow",
+                "image": "",
+                "name": "What's New in AI on GitHub Copilot",
+                "url": ""
+            },
+            "duration": {
+                "description": "90 minutes"
+            },
+            "endDate": "February 2024",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": "Código Facilito"
+            },
+            "funding": "90",
+            "inLanguage": "Spanish",
+            "keywords": "Git, GitHub, GitHub Copilot",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Zoom and YouTube"
+            },
+            "organizer": {
+                "name": "Código Facilito",
+                "url": "https://codigofacilito.com/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "February 2024",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "Explore what Artificial Intelligence can do for you with GitHub Copilot. Discover new features and strategies to speed up your work.",
+                    "image": "",
+                    "name": "GitHub Copilot Live Class",
+                    "url": "https://codigofacilito.com/github-copilot"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Responsible AI",
+            "educationalLevel": "beginner",
+            "teaches": "AI Content Safety",
+            "about": {
+                "additionalType": "https://www.linkedin.com/posts/oscarsantosmu_as-the-year-comes-to-a-close-i-am-grateful-activity-7147444697613967360-ixRP?utm_source=share&utm_medium=member_desktop",
+                "description": "Explored ethical AI principles from Microsoft and shared tips using Azure AI Content Safety Studio.",
+                "image": "",
+                "name": "Responsible AI with Azure AI Content Safety",
+                "url": "https://www.youtube.com/live/S7RO9KwZY1A?si=DcbEkisFJweN1w60&t=18597"
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "December 2023",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "AI, Responsible AI, Microsoft Azure",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "AI NET Power Cloud Community YouTube Channel"
+            },
+            "organizer": {
+                "name": "AI NET Power Cloud Community",
+                "url": "https://www.linkedin.com/company/ai-net-power-cloud-community/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "December 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Global AI Conference LATAM",
+                    "url": "https://globalai.community/conference/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "AI and the Cloud",
+            "educationalLevel": "beginner",
+            "teaches": "AI History and Cloud virtues",
+            "about": {
+                "additionalType": "https://codigofacilito.com/fin-de-semana-cloud",
+                "description": "Delivered a keynote highlighting the dynamic interplay between Artificial Intelligence and Cloud computing, drawing a sizable audience of over 800 attendees.",
+                "image": "",
+                "name": "Artificial Intelligence and the Cloud",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "December 2023",
+            "eventAttendanceMode": "online",
+            "funder": {
+                "name": "Código Facilito"
+            },
+            "funding": "90",
+            "inLanguage": "Spanish",
+            "keywords": "AI, Cloud",
+            "location": {
+                "address": {
+                    "addressCountry": "",
+                    "addressLocality": "",
+                    "addressRegion": "",
+                    "postalCode": "",
+                    "streetAddress": ""
+                },
+                "description": "",
+                "name": "Zoom and YouTube"
+            },
+            "organizer": {
+                "name": "Código Facilito",
+                "url": "https://codigofacilito.com/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "December 2023",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "",
+                    "image": "",
+                    "name": "Fin de Semana Cloud",
+                    "url": "https://codigofacilito.com/fin-de-semana-cloud"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
             "assesses": "Version control",
             "educationalLevel": "beginner",
             "teaches": "Git, GitHub",
