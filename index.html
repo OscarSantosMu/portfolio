@@ -29,15 +29,22 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <script src="_framework/blazor.webassembly.js"></script>
     <script>
-        function loadCredlyEmbedScript() {
-            const script = document.createElement("script");
+        window.loadCredlyEmbed = function() {
+            // Remove any previous script if needed
+            let old = document.getElementById("credlyEmbedScript");
+            if (old) old.remove();
+
+            // Create a fresh script tag
+            let script = document.createElement("script");
+            script.id = "credlyEmbedScript";
             script.src = "https://cdn.credly.com/assets/utilities/embed.js";
-            script.async = true;
+            // no async/defer so it runs immediately
             document.body.appendChild(script);
-        }
+        };
     </script>
+    <script src="_framework/blazor.webassembly.js"></script>
+
 </body>
 
 </html>

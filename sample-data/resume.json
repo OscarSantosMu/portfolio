@@ -44,12 +44,40 @@
         }
     ],
     "certifications": [{
+            "certificateissuer": "Stanford",
+            "competencyRequired": "https://online.stanford.edu/courses/xcs236-deep-generative-models",
+            "validityperiod": "2024",
+            "title": "XCS236 - Deep Generative Models",
+            "description": "Probabilistic foundations and learning algorithms for deep generative models. It cover topics like variational autoencoders, generative adversarial networks, autoregressive models, normalizing flow models, energy-based models, and score-based models.",
+            "url": "https://digitalcredential.stanford.edu/check/817DD9AFB20930D29E880BD34E570B9364E04368BA84142E5675EC88093799D4VW9reGE3SklGTEljUE9hcUZuVDdlbEdzdUtjbCticUQyRkc4bVJCejRiU0pjaVox",
+            "thumbnailUrl": "img/badges/xcs236.svg"
+        },
+        {
+            "certificateissuer": "Microsoft",
+            "competencyRequired": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/?practice-assessment-type=certification",
+            "validityperiod": "2024-2025",
+            "title": "Microsoft Certified: Azure Data Scientist Associate",
+            "description": "Manage data ingestion and preparation, model training and deployment, and machine learning solution monitoring with Python, Azure Machine Learning and MLflow.",
+            "url": "https://learn.microsoft.com/api/credentials/share/es-es/oscarsantosmu/6FB6A2967FA73C97?sharingId=MVP_340422",
+            "thumbnailUrl": "https://learn.microsoft.com/es-es/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
+        },
+        {
+            "certificateissuer": "Microsoft",
+            "competencyRequired": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification",
+            "validityperiod": "2024",
+            "title": "Microsoft Certified: Azure Data Fundamentals",
+            "description": "Demonstrate foundational knowledge of core data concepts related to Microsoft Azure data services.",
+            "url": "https://learn.microsoft.com/api/credentials/share/es-es/oscarsantosmu/9212D427D04D6F08?sharingId=MVP_340422",
+            "thumbnailUrl": "https://learn.microsoft.com/es-es/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
+        },
+        {
             "certificateissuer": "Microsoft",
             "competencyRequired": "https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/",
             "validityperiod": "2022",
             "title": "Microsoft Certified: Azure AI Fundamentals",
             "description": "Demonstrate knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.",
-            "url": "<div data-iframe-width=\"350\" data-iframe-height=\"270\" data-share-badge-id=\"100db0c6-2053-4585-870d-d040fda741dd\" data-share-badge-host=\"https: //www.credly.com\"></div><script type=\"text/javascript\" async src=\"//cdn.credly.com/assets/utilities/embed.js\"></script>",
+            "url": "",
+            "badgeId": "100db0c6-2053-4585-870d-d040fda741dd",
             "thumbnailUrl": ""
         },
         {
@@ -68,6 +96,7 @@
             "title": "Associate Cloud Engineer",
             "description": "Deploy applications, monitor operations, and manage enterprise solutions.",
             "url": "https://www.credential.net/4359ef9f-4089-48f5-879a-020e5ae8ea2e",
+            "badgeId": "6e390a5b-30cb-49cd-af65-55dc28e7cf77",
             "thumbnailUrl": "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/55953503"
         },
         {
@@ -77,6 +106,7 @@
             "title": "Cloud Digital Leader",
             "description": "Can articulate the capabilities of Google Cloud core products and services and how they benefit organizations.",
             "url": "https://www.credential.net/7bdeca5c-c7da-4afa-803d-0b1f0c4d4b3e",
+            "badgeId": "0a15e246-4043-4092-aaec-56d64b425dab",
             "thumbnailUrl": "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/51490737"
         },
         {
@@ -85,7 +115,18 @@
             "validityperiod": "2022-2025",
             "title": "AWS Certified Cloud Practitioner",
             "description": "Foundational understanding of AWS Cloud concepts, services, and terminology.",
-            "url": "<div data-iframe-width=\"350\" data-iframe-height=\"270\" data-share-badge-id=\"e27330a3-a426-4664-ae2b-7e35d497df03\" data-share-badge-host=\"https: //www.credly.com\"></div><script type=\"text/javascript\" async src=\"//cdn.credly.com/assets/utilities/embed.js\"></script>",
+            "url": "",
+            "badgeId": "e27330a3-a426-4664-ae2b-7e35d497df03",
+            "thumbnailUrl": ""
+        },
+        {
+            "certificateissuer": "GitHub",
+            "competencyRequired": "https://education.github.com/experiences/foundations_certificate",
+            "validityperiod": "2024-2027",
+            "title": "GitHub Foundations",
+            "description": "Validates subject matter expertise by measuring entry-level skills with GitHub basics like repositories, commits, branching, markdowns, and project management.",
+            "url": "",
+            "badgeId": "21924494-3ad8-49ce-846a-addc7a04af19",
             "thumbnailUrl": ""
         },
         {
