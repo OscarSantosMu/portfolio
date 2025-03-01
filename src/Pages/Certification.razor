@@ -2,7 +2,18 @@
 
 @* <div class="certification"> *@
 
-    @if (!string.IsNullOrEmpty(@data?.ThumbnailUrl))
+    @if (!string.IsNullOrEmpty(data?.BadgeId))
+    {
+        Console.WriteLine("BadgeId: " + data?.BadgeId);
+        <li class="list-inline-item">
+            <div data-iframe-width="400"
+                data-iframe-height="270"
+                data-share-badge-id="@data.BadgeId"
+                data-share-badge-host="https://www.credly.com">
+            </div>
+        </li>
+    }
+    else if (!string.IsNullOrEmpty(@data?.ThumbnailUrl))
     {
         <li class="list-inline-item">
         <div class="gcp-badge">
@@ -24,12 +35,6 @@
         </div>
         </li>
     }
-    @* else if (@data?.Url?.StartsWith("<") ?? false)
-    {
-        <li class="list-inline-item">
-        <span id="addressLine">@((MarkupString)@data?.Url?.Replace("\r\n", "<br />"))</span>
-        </li>
-    } *@
     else
     {
         <div class="certifications mt-4">
@@ -59,7 +64,9 @@
     {
         if (firstRender)
         {
-            await JSRuntime.InvokeVoidAsync("loadCredlyEmbedScript");
+            // Dynamically create a <script> tag pointing at embed.js
+            await JSRuntime.InvokeVoidAsync("loadCredlyEmbed");
         }
     }
+
 }

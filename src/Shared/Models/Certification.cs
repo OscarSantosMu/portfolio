@@ -7,4 +7,5 @@ public class CertificationModel
     public string? Description { get; set; }
     public string? Url { get; set; }
     public string? ThumbnailUrl { get; set; }
+    public string? BadgeId { get; set; }
 }
