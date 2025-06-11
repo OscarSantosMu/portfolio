@@ -1,11 +1,131 @@
 {
     "EducationEvent": [{
+            "assesses": "AI Agents foundations",
+            "educationalLevel": "beginner",
+            "teaches": "Azure AI Agent Service, AI Frameworks",
+            "about": {
+                "additionalType": "https://www.linkedin.com/posts/oscarsantosmu_seasonofai-gittogetherscdmx-aiagents-activity-7327709593713741824-A3IK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRF9M4Bgoa_8bxcuUSw65lWSrCxnaMWxDE",
+                "description": "In this session, we explored how to build AI Agents, examined key use cases, reviewed essential tools and techniques, and built an AI Agent using Azure AI Agent Service.",
+                "image": "",
+                "name": "Getting Started with AI Agents",
+                "url": ""
+            },
+            "duration": {
+                "description": "30 minutes"
+            },
+            "endDate": "May 2025",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "AI, AI Agents, Azure, Semantic Kernel, AutoGen",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "CDMX",
+                    "addressRegion": "CDMX",
+                    "postalCode": "11510",
+                    "streetAddress": "Periférico Blvd. Manuel Ávila Camacho 201-Piso 9, Polanco, 11510 Ciudad de México, CDMX"
+                },
+                "description": "NU Mexico",
+                "name": "Main Auditorium"
+            },
+            "organizer": {
+                "name": "GitTogether CDMX",
+                "url": "https://www.meetup.com/github-cdmx/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "May 2025",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "Curated sessions designed to inspire and empower developers to build AI Agents",
+                    "image": "",
+                    "name": "GitTogether CDMX - Season of AI",
+                    "url": "https://www.meetup.com/github-cdmx/events/306948674/?eventOrigin=group_past_events"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
+            "assesses": "Responsible AI",
+            "educationalLevel": "beginner",
+            "teaches": "NeMo, Guardrails AI",
+            "about": {
+                "additionalType": "",
+                "description": "This talk examined various strategies that were used to detect and mitigate adversarial attacks on large language models (LLMs). It covered common attack methods such as prompt injection, jailbreaking, and data poisoning, and discussed defense techniques including adversarial training, prompt sanitization, and response filtering.",
+                "image": "",
+                "name": "Adversarial Attack mitigation strategies for Large Language Models (LLMs)",
+                "url": ""
+            },
+            "duration": {
+                "description": "60 minutes"
+            },
+            "endDate": "August 2024",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "Responsible AI, Adversarial Attacks, LLM, Safety, Prompt injection, jailbreak",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "CDMX",
+                    "addressRegion": "CDMX",
+                    "postalCode": "06600",
+                    "streetAddress": "Av. P.º de la Reforma 510-Piso 12, Cuauhtémoc, 06600 Ciudad de México, CDMX"
+                },
+                "description": "Torre BBVA",
+                "name": "Main Auditorium"
+            },
+            "organizer": {
+                "name": "BBVA",
+                "url": "https://bbva.mx/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "August 2024",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": ".",
+                    "image": "",
+                    "name": "",
+                    "url": ""
+                }
+            },
+            "workFeatured": {
+                "abstract": "The Ninja Project"
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
             "assesses": "AI-assisted programming",
             "educationalLevel": "beginner",
             "teaches": "Git, GitHub, GitHub Copilot",
             "about": {
                 "additionalType": "https://codigofacilito.com/github-copilot",
-                "description": "New capabilities of GitHub Copilot and it enhances the developer workflow",
+                "description": "New capabilities of GitHub Copilot and it enhances the developer workflow.",
                 "image": "",
                 "name": "What's New in AI on GitHub Copilot",
                 "url": ""
@@ -185,7 +305,7 @@
             "teaches": "Git, GitHub",
             "about": {
                 "additionalType": "https://www.eventbrite.com.mx/e/workcroak-ep-1-git-y-github-101-tickets-703952088647",
-                "description": "An introduction to version control using Git and how to enhance collaboration capabilities in GitHub",
+                "description": "An introduction to version control using Git and how to enhance collaboration capabilities in GitHub.",
                 "image": "",
                 "name": "Git and GitHub 101",
                 "url": ""
