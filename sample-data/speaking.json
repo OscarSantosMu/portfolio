@@ -1,5 +1,65 @@
 {
     "EducationEvent": [{
+            "assesses": "AI Agents tool usage",
+            "educationalLevel": "intermediate",
+            "teaches": "AI Agents, function calling, code interpreter tool and file search tool",
+            "about": {
+                "additionalType": "https://www.linkedin.com/posts/oscarsantosmu_agentcon-globalaicommunity-agentcon-activity-7345498035566600193-a9Iy?utm_source=share&utm_medium=member_desktop&rcm=ACoAADRF9M4Bgoa_8bxcuUSw65lWSrCxnaMWxDE",
+                "description": "In this session, attendees learned how to build their own code-first AI agent with Azure that can answer questions, perform data analysis, and integrate external data sources, to deliver enhanced business insights.",
+                "image": "https://media.licdn.com/dms/image/v2/D5622AQF8Kc0RDvFYFQ/feedshare-shrink_2048_1536/B56Zd7LAXNHEAo-/0/1750118231069?e=1758153600&v=beta&t=RooaBLNG5i47B5U2wHH0vlPqj-Aga4Bya4U2y9UtjUM",
+                "name": "Build your code-first app with Azure AI Agent Service",
+                "url": ""
+            },
+            "duration": {
+                "description": "40 minutes"
+            },
+            "endDate": "June 2025",
+            "eventAttendanceMode": "in-person",
+            "funder": {
+                "name": ""
+            },
+            "funding": "",
+            "inLanguage": "Spanish",
+            "keywords": "AI, AI Agents, Azure, Function Calling, Tools",
+            "location": {
+                "address": {
+                    "addressCountry": "Mexico",
+                    "addressLocality": "CDMX",
+                    "addressRegion": "CDMX",
+                    "postalCode": "07700",
+                    "streetAddress": "Av. Juan de Dios Bátiz S/N, Nueva Industrial Vallejo, Gustavo A. Madero, Ciudad de México, CDMX"
+                },
+                "description": "Centro de Investigación en Computación (CIC) - IPN",
+                "name": "Room 2"
+            },
+            "organizer": {
+                "name": "Global AI Mexico City Chapter",
+                "url": "https://globalai.community/chapters/mexico-city/"
+            },
+            "performer": {
+                "name": "Oscar Santos"
+            },
+            "recordedIn": {
+                "abstract": ""
+            },
+            "startDate": "June 2025",
+            "superEvent": {
+                "about": {
+                    "additionalType": "",
+                    "description": "A global series of one-day conferences designed exclusively for developers building the future with autonomous AI agents.",
+                    "image": "",
+                    "name": "AgentCon 2025",
+                    "url": "https://globalai.community/chapters/mexico-city/events/agentcon-2025-mexico-city/"
+                }
+            },
+            "workFeatured": {
+                "abstract": ""
+            },
+            "workPerformed": {
+                "abstract": ""
+            }
+        },
+        {
             "assesses": "AI Agents foundations",
             "educationalLevel": "beginner",
             "teaches": "Azure AI Agent Service, AI Frameworks",
