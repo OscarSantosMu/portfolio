@@ -106,7 +106,7 @@ namespace Portfolio.ViewModels
             {
                 new ProjectModel
                 {
-                    Title = "Microsoft MVP Award 2023-2024",
+                    Title = "Microsoft MVP Award 2×",
                     Description = "Recognized as a Microsoft Most Valuable Professional (MVP) for outstanding contributions to the community in the AI category.",
                     RepoUrl = "",
                     Url = "https://www.linkedin.com/feed/update/urn:li:activity:7171882438745387009/",
@@ -157,7 +157,7 @@ namespace Portfolio.ViewModels
                 new ProjectModel
                 {
                     Title = "Converse with your data using your own ChatGPT with Azure OpenAI Service",
-                    Description = "Wrote an article with over 2.5 thousand views on C# Corner.",
+                    Description = "Wrote an article with over 4 thousand views on C# Corner.",
                     RepoUrl = "",
                     Url = "https://www.c-sharpcorner.com/article/converse-with-your-data-using-your-own-chatgpt-with-azure-openai-service/",
                     ImageURL = "https://www.c-sharpcorner.com/Jobs/UploadFile/UserData/prvn_131971/logo/ccornerlogo.jpg",
