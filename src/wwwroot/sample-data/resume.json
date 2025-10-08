@@ -281,6 +281,15 @@
         "url": "https://hackmit.org/"
     }],
     "projects": [{
+            "title": "A World Away: Hunting for Exoplanets with AI",
+            "description": "Thousands of exoplanets have been discovered through NASA’s missions — mostly via manual vetting. Our hybrid AI/ML platform automates exoplanet detection and classification using a multi-model ensemble, supports custom data uploads for batch predictions and model retraining at runtime, and visually explains results. Built with FastAPI, React, Terraform, and Azure ML, it deploys via GitHub Actions for scalable, transparent scientific discovery.",
+            "repourl": "https://github.com/OscarSantosMu/hunting-for-exoplanets-with-AI",
+            "url": "https://oscarsantosmu.github.io/hunting-for-exoplanets-with-AI/",
+            "imageurl": "https://assets.spaceappschallenge.org/media/images/Challenge_2_Image.2e16d0ba.fill-785x660.jpg",
+            "keywords": "Python, AI, Data Science, Cloud, Microsoft Azure, Web, React, Vite, Tailwind, Terraform, Docker, GitHub, GitHub Actions, Azure ML, DevOps",
+            "priority": 2
+        },
+        {
             "title": "Blender animations using human pose estimation AI models",
             "description": "Estimate pose, save the points of each frame of a video and upload those frames into Blender.",
             "repourl": "https://github.com/OscarSantosMu/TF_pose_estimation_and_Blender",
